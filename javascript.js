@@ -44,3 +44,5 @@ function operate(a, operator, b)
         return divide(a, b);
     }
 }
+
+console.log(document.getElementById("hello").offsetWidth);

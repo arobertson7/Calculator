@@ -52,16 +52,29 @@ body {
     width: 85%;
     background-color: rgb(193, 188, 174, 0.8);
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     border-radius: 30px;
 }
 
+.row-one, .row-two, .row-three, .row-four {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.row-four {
+    margin: 3px 0px 3px 0px;
+}
+
 .button-container button {
     flex-grow: 1;
-    width: 20%;
     border-radius: 20px;
     font-size: 150%;
+    
+}
+
+#clear-button {
     
 }
